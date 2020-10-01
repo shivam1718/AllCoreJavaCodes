@@ -9,7 +9,7 @@ public class Armstrong {
 		System.out.println("Enter the number you want to check");
 		int a=sc.nextInt();
 		temp=a;
-		for(int i=0; ; i++) {
+		for(int i=0; i++) {
 			b=a%10;
 			s=s+(b*b*b);
 			a=a/10;
